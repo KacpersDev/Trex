@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt-get install curl
 echo "Start with installation"?
 read decision
 echo "Installing java"
@@ -15,3 +16,8 @@ cd /
 cd $server_saver
 mkdir $folder_name
 echo "Created..."
+
+echo "Generating start.sh file..."
+cd $folder_name
+mkdir start.sh
+echo "Start file created"
