@@ -17,4 +17,3 @@ if [ boolean = "y" ] then
 	apt-get install screen
 	echo "Everything has been installed correctly."
 echo "Do you want me to configurate server start file?"
-
