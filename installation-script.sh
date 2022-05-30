@@ -17,6 +17,6 @@ if [ boolean = "y" ] then
 	apt-get install screen
 	echo "Everything has been installed correctly."
 echo "Do you want me to configurate server start file?"
-elif [ boolean = "n" ]then
+elif [[ boolean = "n" ]]; then
 	echo "Qutting script"
-	return
+	cd /
